@@ -2,7 +2,9 @@
 
 ## Section 1
 
+### helloworld.py
 
+add some numbers and print out
 
 
 ## Section 2
@@ -11,8 +13,4 @@
 
 ### subsubtitle
 
-**regular** _text_
-
-`
-print('hello world')
 `
