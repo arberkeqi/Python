@@ -2,7 +2,7 @@
 #
 # # if (age >= 16) and (age <= 65):     # use parentheses to make the expression clearer
 # #     if 15 < age < 66:
-# #         print("Have a good day at works")
+# #         print("Have a good day at work")
 # if (age < 16) or (age > 65):
 #     print("Enjoy your free time")
 # else:
@@ -39,6 +39,8 @@ if 18 <= age <= 30:
     print("Welcome to the holiday")
 else:
     print("You are not in the age range, so better luck next time. ")
+
+print()
 
 quote = """
 Alright, but apart from the Sanitation, the Medicine, Education, Wine,
