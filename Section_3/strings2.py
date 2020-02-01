@@ -12,7 +12,7 @@ print(parrot[0:6])  # Norweg
 print(parrot[-14:-8])
 print(parrot[3:5])
 print(parrot[-11:-9])
-print(parrot[0:9])          # both lines(14;15) show us the same same thing
+print(parrot[0:9])          # both lines(14:15) show us the same same thing
 print(parrot[-14:-5])
 print(parrot[:9])
 print(parrot[:-5])
@@ -34,10 +34,10 @@ print(parrot[-4:12])
 print(parrot[0:6:2])    # Nre we take the letters from 0 to 6(not including 6) step the sequences in step of 2
 print(parrot[0:6:3])    # Nw we take the letters from 0 to 6(not including 6) step the sequences in step of 3
 number = "9,223;372:036 854,775;807"
-seperators = number[1::4]
-print(seperators)
+separators = number[1::4]
+print(separators)
 
-values = "".join(char if char not in seperators else " " for char in number).split()
+values = "".join(char if char not in separators else " " for char in number).split()
 print([int(val) for val in values])
 
 print()
