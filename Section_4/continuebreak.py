@@ -1,7 +1,7 @@
 # shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
 # for item in shopping_list:
 #     if item == "spam":
-#         # continue        # continue= bypasses or stop processing for that particular exppression
+#         # continue        # continue= bypasses or stop processing for that particular expression
 #         break             # break - stops the operating under that point(til that point no more)
 #     print("Buy " + item)
 
